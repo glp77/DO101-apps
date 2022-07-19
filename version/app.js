@@ -12,6 +12,10 @@ app.get('/', function (req, res) {
 
 });
 
+app.get('/cumple', function (req, res) {
+    res.send('Feliz Cumple Sebas!\n');
+  });
+  
 app.listen(8080, function () {
   console.log('Server listening on port 8080...');
 });
